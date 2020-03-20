@@ -20,3 +20,4 @@ server.use(jsonServer.rewriter({
 server.use("/api", router);
 
 server.listen(port);
+
